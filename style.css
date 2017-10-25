@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  user-select: none;
+}
+body {
+  background-color: #333333;
+  width: 1120px;
+  height: 725px;
+}
+canvas {
+  float: left;
+  border: 1px solid black;
+}
+.slider-div {
+  border-right: 2px solid black;
+  width: 250px; /***********/
+  float: left;
+  color: white;
+  background-color: #333333;
+  padding: 5px;
+  font-size: 8pt;
+  font-family: Verdana;
+}
+hr {
+  border: 1px solid #555555;
+}
+.slider-hr {
+  clear: both;
+}
+.slider-label {
+  text-align: center;
+  width: 120px;
+  float: left;
+  clear: both;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.green {
+  color: #00ff00;
+}
+.red {
+  color: #ff0000;
+}
+.slider {
+  width: 135px;
+  float:left;
+  margin-bottom: 5px;
+}
+.rtl {
+  direction: rtl;
+}
+.slider-val {
+  float: right;
+  margin-top: 20px;
+}
+.mutation {
+  background-color: #666;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: 10pt;
+}
+.dna-label {
+  text-align: center;
+  width: 135px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.dna-slider {
+  float: left;
+  width: 120px;
+}
+.dna-hr {
+  width: 135px;
+  float: left;
+}
+.dna-val {
+  text-align: center;
+  width: 135px;
+  float: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.small {
+  font-size: 6pt;
+}
+.controls {
+  padding: 10px;
+  float:left;
+  background-color: #333333;
+  /*border-top: 3px solid black;*/
+  color: white;
+}
+.debug {
+  padding: 20px;
+}
+input {
+  cursor: pointer;
+}
+label {
+  background-color: #0b7dda;
+  padding: 10px;
+  border: 1px solid white;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 8pt;
+  font-family: Verdana;
+}
+label:active {
+  border: 1px dotted white;
+  color: black;
+}
+label:hover {
+  background-color: #2196F3;
+}
+button {
+  margin-top: 2px;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 8pt;
+  font-family: Verdana;
+  border: 1px solid white;
+  color: white;
+}
+button:active {
+  border: 1px dotted white;
+  color: black;
+}
+.success:hover {background-color: #4CAF50;} /* Green */
+.success {background-color: #46a049;}
+.info:hover {background-color: #2196F3;} /* Blue */
+.info {background: #0b7dda;}
+.warning:hover {background-color: #ff9800;} /* Orange */
+.warning {background: #e68a00;}
+.danger:hover {background-color: #f44336;} /* Red */
+.danger {background: #da190b;}
+.myconsole {
+  font-size: 8pt;
+  padding: 10px;
+  float:left;
+  background-color: #333333;
+  border-top: 3px solid black;
+  color: white;
+}
+pre {
+    font-size: 7pt;
+    font-family: Monospace;
+    tab-size: 9;
+}
