@@ -136,8 +136,8 @@ function drawMainLayout() {
   createP('DNA Mutation Rates').parent(sliderdiv).addClass('mutation');
   createP('<hr />').parent(sliderdiv).addClass('slider-hr');
 
-  dnadiv = createDiv('<img style="float:left;margin-top: -10px; margin-right: 8px;" src="dna.png" width="40px" height="275px">').parent(sliderdiv);
-  createDiv('<img style="float:right;margin-top: -10px; margin-right: 8px;" src="dna.png" width="40px" height="275px">').parent(dnadiv);
+  dnadiv = createDiv('<img style="float:left;margin-top: -10px; margin-right: 8px;" src="dna.png" width="40px" height="312px">').parent(sliderdiv);
+  createDiv('<img style="float:right;margin-top: -10px; margin-right: 8px;" src="dna.png" width="40px" height="312px">').parent(dnadiv);
 
   // FOOD ATTRACT SLIDER
   createDiv('Food Attraction Force').parent(dnadiv).addClass('dna-label green');
