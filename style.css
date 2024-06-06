@@ -9,6 +9,7 @@ body {
   background-color: #333333;
   width: 1120px;
   height: 725px;
+  margin:  0 auto;
 }
 canvas {
   float: left;
